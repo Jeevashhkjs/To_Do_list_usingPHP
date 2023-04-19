@@ -13,7 +13,9 @@
         '/insertSignData' => 'controllers/SignUplogic.php',
         '/loginLogic' => 'controllers/logIn.php',
         '/' => 'viewers/homeView.php',
-        '/homelogic' => 'controllers/homelogic.php'
+        '/homelogic' => 'controllers/homelogic.php',
+        '/list' => 'controllers/list.php',
+        '/listlogic' => 'controllers/listlogic.php'
     ];
 
     if(array_key_exists($_SERVER['REQUEST_URI'],$routers)){

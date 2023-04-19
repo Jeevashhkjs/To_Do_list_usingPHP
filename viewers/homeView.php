@@ -10,6 +10,7 @@
             <input type="text" name="taskname" placeholder = "taskName">
             <label>Task Description</label>
             <textarea name="content"></textarea>
+            <button>Add Task</button>
         </form>
     </div>
 </body>
