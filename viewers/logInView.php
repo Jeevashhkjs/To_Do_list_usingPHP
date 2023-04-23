@@ -6,8 +6,8 @@
 <body>
     <div class="container">
         <form action="loginLogic" method="post">
-            <?php if(isset($_SESSION['userAlready'])):?>
-            <?php echo $_SESSION['userAlready'] ?>
+            <?php if(isset($_SESSION['incorrectUsers'])):?>
+            <?php echo $_SESSION['incorrectUsers'] ?>
             <?php endif; ?>
             <label>Email</label>
             <input type="email" name="checkMail" placeholder="mail@gmail.com"/>

@@ -5,9 +5,9 @@
 </head>
 <body>
     <div class="container">
-        <form action="/insertSignData" method="post">
-        <?php if(isset($_SESSION['incorrectUsers'])):?>
-            <?php echo $_SESSION['incorrectUsers'] ?>
+        <form action="/signupLogic" method="post">
+            <?php if(isset($_SESSION['usersCanHaveAccount'])):?>
+            <?php echo $_SESSION['usersCanHaveAccount'] ?>
             <?php endif; ?>
             <label>Name</label>
             <input type="text" name="name" class="name" id="name" />
